@@ -1,0 +1,68 @@
+body {
+    background-image: ../images/('morocco.png') ;
+}
+
+.topbarfixed {
+    position: fixed ;
+}
+
+#nameonblue {
+    color: #ffffff ;
+    background-color: #4aaaa5 ;
+    margin: 0 ;
+    text-align: center ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-family:'Georgia', 'Times', 'Times New Roman', serif ;
+    font-size: 28px ;
+    width: 40% ;
+    height: 80px ;
+    float: left ;
+}
+
+#topbarlinks {
+    width: 60% ;
+    background-color: #ffffff ;
+    height: 80px ;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif ;
+    color: #777777 ;
+    text-align: right ;
+    padding-bottom: 0 ;
+    float: right ;
+}
+
+.container {
+    background-color: #ffffff ;
+    margin-left: 10% ;
+    marging-right: 10% ;
+    padding: 0 ;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif ;
+    color: #777777 ;
+    font-size: 18px ;
+    line-height: 150% ;
+}
+
+h3 {
+    font-size: 20px ;
+}
+a {
+    color: #d21034 ;
+}
+
+
+.main-bio,
+.lists,  
+#bio-image, {
+    float: left ;
+}
+
+#bio-image {
+    margin-right: 20px ;
+    height: 200px ;
+    width: 200px ;
+}
+.main-bio {
+    width: 65%
+}
