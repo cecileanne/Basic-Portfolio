@@ -110,6 +110,12 @@ nav li {
     float: left ;
 }
 
+.container li {
+    list-style-type: circle ; 
+    margin-left: 30px ;
+    margin-top: 3px ;
+}
+
 .portfolioItem {
     display: inline-block ;
     width: 250px;
