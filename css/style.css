@@ -5,6 +5,7 @@ body{
     height: 100% ;
     width: 100% ;
     margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -42,7 +43,7 @@ header {
 .topbarcontent {
     background: white;
     width: 100%;
-    margin: 0px 10% 0px 0px;
+    margin: 0px ;
 }
 
 #myname {
@@ -51,8 +52,8 @@ header {
     height: 100% ;
     padding: 26px 15px 26px 15px;
     text-align:center;
-    display: inline-block;
-    margin-left: 80px ;
+    float: left ;
+    margin-left: 10% ;
 }
 h1, h1 a:visited {
     color: #ffffff ;
@@ -73,6 +74,10 @@ nav li {
     padding-right: 15px ;
 }
 
+nav {
+    float: right ;
+}
+
 .linelinkseparationstart {
     border-left: solid ;
     border-width: 1px ;
@@ -86,7 +91,7 @@ nav li {
     border-color: #cccccc ;
     border-width: 1px ;
     margin-top: 100px ;
-    margin-left: 80px ;
+    margin-left: 10% ;
     margin-bottom: 60px ;
     padding: 20px 50px 20px 50px ;
     float: left ;
@@ -201,6 +206,7 @@ footer {
     width: 100% ;
     position: fixed ;
     bottom: 0 ;
+    z-index: 5 ;
 }
 
 footer:after {
