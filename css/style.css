@@ -61,6 +61,20 @@ h1, h1 a:link, h1 a:visited {
     font-size: 28px ;
 }
 
+h2, h2 a:link, h2 a:visited {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 18px ;
+    font-weight: normal ;
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    text-decoration: none ;
+    color: #ffffff ;
+}
+
+h2 a:hover {
+    opacity: 50% ;
+}
+
 #pagelinks {
     float: right ;
     margin-top: 30px ;
@@ -143,16 +157,6 @@ nav {
     position: absolute ;
     top: 145px ;
     z-index: 2 ;
-}
-
-h2, h2 a:link, h2 a:visited {
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    font-size: 18px ;
-    font-weight: normal ;
-    padding-top: 15px ;
-    padding-bottom: 15px ;
-    text-decoration: none ;
-    color: #ffffff ;
 }
 
 label {
