@@ -4,7 +4,6 @@ body{
     color: #777777 ;
     height: 100% ;
     width: 100% ;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -97,10 +96,11 @@ nav {
     border-style: solid ;
     border-color: #cccccc ;
     border-width: 1px ;
-    margin-top: 100px ;
-    margin-left: 10% ;
     margin-bottom: 60px ;
+    margin: 0 auto ;
+    margin-top: 100px ;
     padding: 20px 50px 20px 50px ;
+    clear: both ;
 }
 
 .container h1 {
@@ -149,6 +149,10 @@ nav {
     position: absolute ;
     top: 145px ;
     z-index: 2 ;
+}
+
+.portfolioItem a:hover {
+    opacity: 50% ;
 }
 
 label {
